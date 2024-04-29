@@ -1,0 +1,22 @@
+
+/* Descendant Selectors aka Combinators */
+
+/* every list item inside the header */
+header li{
+    color: white;
+}
+
+/*  every list and a inside a section */
+section li,a{
+    color: white;
+}
+
+/* we can also do this way */
+
+li a{
+    color: white;
+}
+
+section.my-articles h2{
+    background-color: lightcoral;
+}   

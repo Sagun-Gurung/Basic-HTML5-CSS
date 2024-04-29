@@ -1,0 +1,47 @@
+
+.box-wrapper{
+    border: 10px solid black;
+    display: flex;
+    max-width: 1000px;
+    /* height: 500px; */
+
+    /* align-items: center; */
+    /* justify-content: space-between; */
+
+    /* align-content: flex-start; */
+
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+
+    /* if we want to use flex-direction and flex-wrap at the same time */
+    /* flex-flow: row wrap;   */
+
+     /* flex-direction: column; */
+}
+.box{
+    border: 2px solid blue;
+    /* flex-basis: 500px; */
+    width: 200px;
+    /* flex-grow: 1; */
+}
+.box1{
+    background: pink;
+    /* align-self: flex-start; */
+    /* order: 0; */
+}
+.box2{
+    background: lightblue;
+    /* align-self: center; */
+    /* order: 1; */
+}
+.box3{
+    background: lightcyan;
+    /* align-self: flex-end; */
+    /* order: 0; */
+}
+.box4{
+    background: lightgray;
+}
+.box5{
+    background: lightsteelblue;
+}

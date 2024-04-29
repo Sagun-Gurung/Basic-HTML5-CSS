@@ -1,0 +1,11 @@
+
+h1{
+    color: brown;
+}
+body{
+    font-family: Arial;
+    color: #cdcd56;
+    /* values for colors goes from 1 to f i.e. 0,1,2,3,4,5,6,7,8,9,a,b,c,d,e,f aka hex code*/
+    background-color: palevioletred;
+    text-align: center;
+}

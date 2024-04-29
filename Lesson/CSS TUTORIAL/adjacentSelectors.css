@@ -1,0 +1,5 @@
+
+h2+p{
+    color: red;
+}
+/* only the first <p> after h2 if there is second on then it wont work on that */

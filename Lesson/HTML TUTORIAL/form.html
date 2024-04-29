@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORMS</title>
+    <link  rel="stylesheet" href="/CSS TUTORIAL/1first.css" />
+</head>
+<body>
+    <h1> HTML FORMS</h1>
+    <form action="thankyou.html" method="get">
+        <label for="username">Username: </label>
+        <input type="text" id="username" name="username" placeholder="username" required><br><br>
+
+        <label for="password">Password: </label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <p> Select your gender</p>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="Male">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="Female">
+        <label for="other">Other</label>
+        <input type="radio" name="gender" id="other" value="Other"><br><br>
+
+        <label for="age-group">Select your age group</label>
+        <select name="age-group-values" id="age-group" >
+            <option value="0-10">0-10</option>
+            <option value="11-18">11-18</option>
+            <option value="19-25">19-25</option>
+            <option value="25 +">25 above</option>
+        </select> <br><br>
+
+        <p>Comments</p>
+        <textarea name="" id="" cols="30" rows="3" placeholder="Type here..."></textarea><br><br>
+
+        Pick Color: <input type="color"> <br><br>
+        Date: <input type="date" name="" id=""><br><br>
+
+        <input type="file">
+        
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

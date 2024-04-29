@@ -1,0 +1,31 @@
+
+/* Example of Block Level Elements are  
+    heading(1-6), p, div, ul, li, form, article, aside, main, nav
+*/
+
+/* Example of Inline Elements
+    span, img, a, textarea
+    -inline elements do not have top, bottom margin  - only left and right
+*/
+
+    h1{
+       border: 2px solid red;
+       padding: 10px;
+       /* writing-mode: vertical-lr; */
+       display: inline; /* converting block element into inline */
+    }
+    a{
+        border: 5px solid plum;
+        /* display: block; converting inline element into block element */
+        display: inline-block;
+        height: 30px;
+        width: 200px;
+        padding: 10px;
+        text-align: center;
+    }
+    img{
+        border: 10px groove blueviolet;
+        margin: 50px auto;
+        width: 300px;
+        padding: 20px;
+    }

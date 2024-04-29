@@ -1,0 +1,15 @@
+
+There are two types of CSS units:
+1)Absolute units
+2) Relative units
+
+
+1)Absolute units
+    96px -1 inch
+    1 inch -2.54 cm
+    16px = 12pts(points)
+
+2) Relative units
+    -Percentage - % of the parent elements
+    -REM Unit- twice of html/root default font size
+    -EM Unit - 2*default pixel size/ it changes according to its parent size

@@ -1,0 +1,32 @@
+
+/* input[type = "text"]{
+    color: red;
+    background-color: azure;
+} */
+/* any attribute that starts with "t" */
+input[type ^= "t"]{
+    color: blue;
+}
+
+input[type = "password"]{
+    background-color: pink;
+}
+
+/* a[href ="https://www.google.com/"]{
+    color: brown;
+} */
+
+/* using Universal selector */
+/* a[href *= "google"]{
+    color: red;
+} */
+
+/* any attributes that starts with t */
+a[href ^= "https"]{
+    color: green;
+}
+
+/* any attributes that ends with ".com" */
+a[href $= ".com/"]{
+    color: yellowgreen;
+}

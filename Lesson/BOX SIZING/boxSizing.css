@@ -1,0 +1,15 @@
+
+section{
+    border: 2px solid black;
+    display: inline-block;
+    width: 500px;
+    padding: 30px;
+    box-sizing: border-box;
+    margin: 20px auto;
+}
+
+img{
+    border: 20px solid purple;
+    width: 400px;
+    box-sizing: border-box;
+}

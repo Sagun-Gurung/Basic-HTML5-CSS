@@ -1,0 +1,5 @@
+/* it works on whole html page and usually used to reset the page */
+
+    *{
+        color: red;
+    }

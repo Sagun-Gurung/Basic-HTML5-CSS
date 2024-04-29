@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* *{
+    color: red;
+} */ /* universal selector */
+
+body{
+    font-family: "Montserrat", sans-serif;
+    font-size: small;
+}
+h1{
+    color: darkcyan;
+}
+
+h3{
+    color: darkcyan;
+}
+
+header{
+    background-color: lightgrey;
+}
+
+/* Descendant Selectors aka Combinators */
+/* every list item inside the header */
+header li{
+    color: white;
+}
+
+/*  every list and a inside a section */
+section li,a{
+    color: white;
+}
+
+/* also this way */
+li a{
+    color: white;
+}
+
+.div1{
+    background-color: lightgrey;
+}
+span{
+    background-color: lightblue;
+}
+
+section.my-articles h2{
+    background-color: lightcoral;
+}
+
+/* Adjacent Selectors */
+
+h2+p{
+    color: red;
+}
